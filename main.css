@@ -1,0 +1,203 @@
+@charset "utf-8";
+#space1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+h1 {
+ 	color:#00548F;	
+}
+#Footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Logo_and_Menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Home {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#intro {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#About {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#Services {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+#Contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.justified_text {
+	text-align: justify;
+}
+
+.logo_background {
+	background-color: #3fa9f5;
+}
+
+.gridContainer.clearfix #Footer p small a:link, .gridContainer.clearfix #Footer p small a:visited {
+	color: #000;
+}
+.gridContainer.clearfix #Footer p small a:hover {
+	color: #FFF;
+}
+.gridContainer.clearfix #Logo_and_Menu ul {
+	list-style-type: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 50px;
+}
+.gridContainer.clearfix #Logo_and_Menu ul li {
+	display: inline;
+}
+.gridContainer.clearfix #Logo_and_Menu ul li a {
+	font-family: Aldhabi, Algerian, Aharoni;
+	font-size: 24px;
+	color: #00305A;
+	margin-right: 5px;
+	border: 1px solid #7ABAF2;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.gridContainer.clearfix #Logo_and_Menu ul li a:link, .gridContainer.clearfix #Logo_and_Menu ul li a:visited {
+	color: #00305A;
+	text-decoration: none;
+	font-family: Aldhabi, Algerian, Aharoni;
+}
+.gridContainer.clearfix #Logo_and_Menu ul li a:hover {
+	background-color: #00548F;
+	color: #FFF;
+}
+.gridContainer.clearfix #Contact form fieldset {
+	border: 1px solid #3FA9F5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(images/logo-map-maker.png);
+}
+.gridContainer.clearfix #Contact form fieldset label {
+	display: block;
+	padding: 5px;
+	margin-left: 20px;
+	width: 250px;
+}
+
+.gridContainer.clearfix #Contact form fieldset legend {
+	color: #00305A;
+	border: 1px solid #3FA9F5;
+	padding: 2px;
+	margin-left: 20px;
+	font-family: Aldhabi, Algerian, Aharoni;
+	font-size: 20px;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+.gridContainer.clearfix #Contact p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #3FA9F5;
+	font-style: italic;
+	text-align: center;
+}
+.gridContainer.clearfix #Contact p a:link, .gridContainer.clearfix #Contact p a:visited {
+	color: #3FA9F5;
+}
+
+
+.gridContainer.clearfix #Contact form fieldset label #message {
+	background-color: #3FA9F5;
+	border: 1px solid #7ABAF2;
+}
+.gridContainer.clearfix #Contact form fieldset #send {
+	font-family: Aldhabi, Algerian, Aharoni;
+	font-size: medium;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+
+}
+
+
+.gridContainer.clearfix #Contact form fieldset label span {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	width: 70px;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+}
+.gridContainer.clearfix #Contact form fieldset label input {
+	background-color: #3FA9F5;
+	width: 100px;
+	border: 1px solid #7ABAF2;
+}
+.gridContainer.clearfix #Home #intro {
+	font-family: Aldhabi, Algerian, Aharoni;
+	font-size: 24px;
+	text-align: justify;
+}
+.gridContainer.clearfix #About #about {
+	font-family: Aldhabi, Algerian, Aharoni;
+	font-size: 24px;
+}
+.gridContainer.clearfix #Services #services {
+	font-family: Aldhabi, Algerian, Aharoni;
+	font-size: 24px;
+}
